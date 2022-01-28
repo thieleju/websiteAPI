@@ -1,7 +1,10 @@
 # dockerAPI
-[![Docker Image CI](https://github.com/thieleju/dockerAPI/actions/workflows/docker-image.yml/badge.svg)](https://github.com/thieleju/dockerAPI/actions/workflows/docker-image.yml)
+
+[![Create and publish a Docker image](https://github.com/thieleju/websiteAPI/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/thieleju/websiteAPI/actions/workflows/publish-docker-image.yml)
 
 NodeJS + ExpressJS API Docker Container
+
+The latest Docker Image is available as a package
 
 <br>
 
