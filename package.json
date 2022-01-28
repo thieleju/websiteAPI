@@ -1,0 +1,23 @@
+{
+  "name": "dockerapi",
+  "version": "1.0.0",
+  "description": "NodeJS + ExpressJS API hosted on Azure Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thieleju/dockerAPI.git"
+  },
+  "author": "thieleju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thieleju/dockerAPI/issues"
+  },
+  "homepage": "https://github.com/thieleju/dockerAPI#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
