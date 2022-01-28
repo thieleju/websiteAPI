@@ -1,23 +1,23 @@
 {
-  "name": "dockerapi",
-  "version": "1.0.0",
+  "name": "websiteAPI",
+  "version": "1.1.0",
   "description": "NodeJS + ExpressJS API",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'No Tests yet...'",
+    "test": "exit 0",
     "serve": "cross-env NODE_ENV=development nodemon index.js",
     "production": "cross-env NODE_ENV=production node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thieleju/dockerAPI.git"
+    "url": "git+https://github.com/thieleju/websiteAPI.git"
   },
   "author": "thieleju",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thieleju/dockerAPI/issues"
+    "url": "https://github.com/thieleju/websiteAPI/issues"
   },
-  "homepage": "https://github.com/thieleju/dockerAPI#readme",
+  "homepage": "https://github.com/thieleju/websiteAPI#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",

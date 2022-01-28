@@ -33,7 +33,7 @@ app.use((err, req, res, next) => {
 app.use((res, req) => {
   res
     .status(200)
-    .json({ status: "success", message: "Hello from the dockerAPI!" });
+    .json({ status: "success", message: "Hello from the websiteAPI!" });
 });
 
 // include v1 api
