@@ -8,10 +8,6 @@ The latest Docker Image is available as a package
 
 <br>
 
-> Hosting on Azure as a Azure-Beginner is absolute cancer
-
-<br>
-
 Build Docker Image
 
 ```js
@@ -23,3 +19,7 @@ Run Docker Image
 ```js
 docker run -p <local-port>:<containter-port> <nametag>
 ```
+
+<br>
+
+> Hosting on Azure as a Azure-Beginner is absolute cancer
