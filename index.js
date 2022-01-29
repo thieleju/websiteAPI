@@ -30,7 +30,7 @@ app.use((err, req, res, next) => {
 });
 
 // welcome message
-app.use((res, req) => {
+app.get("/", (req, res) => {
   res
     .status(200)
     .json({ status: "success", message: "Hello from the websiteAPI!" });

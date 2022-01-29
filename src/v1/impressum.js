@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
     var impressum = fs.readFileSync("assets/impressum.html");
     res.send(impressum);
   } catch (error) {
-    res.status(400).json(error);
+    res.status(500).json(error);
   }
 });
 
