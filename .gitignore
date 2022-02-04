@@ -1,6 +1,6 @@
 assets
-.env.production
-.env.development
+# .env.production
+# .env.development
 
 # Logs
 logs
